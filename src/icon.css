@@ -1,0 +1,19 @@
+/*
+ * @Author: Langx&Echo
+ * @Date: 2022-12-27 12:03:04
+ * @LastEditTime: 2023-01-04 17:54:22
+ * @LastEditors: your name
+ * @Description: 
+ * @FilePath: \ssy-ui\src\icon.css
+ * 阿格尼,为了我,对代码使用炎拳吧!!!
+ */
+ @import '//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css';
+ /* 图标默认样式 */
+ .fa {
+   display: inline-block;
+   text-align: center;
+   width: auto;
+   height: 1.5rem;
+   line-height: 1.5rem;
+   font-size: 1.2rem;
+ }

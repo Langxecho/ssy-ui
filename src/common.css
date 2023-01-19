@@ -1,0 +1,49 @@
+/*
+ * @Author: Langx&Echo
+ * @Date: 2022-12-27 11:04:25
+ * @LastEditTime: 2022-12-28 10:21:23
+ * @LastEditors: your name
+ * @Description: 
+ * @FilePath: \ssy-ui\src\common.css
+ * "阿格尼,为了我,对代码使用炎拳吧!!!"
+ */
+
+/*屏幕宽度340px~410px的样式*/
+html {
+    font-size: 20px;
+}
+
+/*屏幕宽度小于340px的样式*/
+@media (max-width: 340px) {
+    html {
+        font: size 18px;
+    }
+}
+
+/*大于410px时的样式*/
+@media (min-width: 410px) {
+    html {
+        font-size: 22px;
+    }
+}
+body{
+    max-width: 640px;
+    margin: 0 auto;
+    background: #f8f8f8;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+  .ssy-content {
+    box-sizing: border-box;
+    position: relative;
+    overflow-y: auto;
+  }
+  
+  /* 根据header和navbar自动适应内容区高度 */
+  .ssy-header~.ssy-content {
+    padding-top: 2.3rem;
+  }
+  
+  .ssy-navbar~.ssy-content {
+    padding-bottom: 2.5rem;
+  }
